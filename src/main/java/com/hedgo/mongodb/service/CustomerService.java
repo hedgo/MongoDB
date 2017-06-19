@@ -11,9 +11,7 @@ import java.util.List;
 
 @Component
 public class CustomerService {
-    private
-    @Autowired
-    CustomerRepository repository;
+    private @Autowired CustomerRepository repository;
 
     public void run() {
 
